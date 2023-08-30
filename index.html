@@ -33,6 +33,15 @@
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
         ></div>
       </section>
+      <!-- You can open the modal using ID.showModal() method -->
+      <!-- <button class="btn" onclick="showAiDetails.showModal()">open modal</button> -->
+      <dialog id="showAiDetails" class="modal">
+        <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+          <button class="bg-red-500 text-white btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        <div id="details-container" class="flex lg:justify-between items-center gap-4 p-5">
+        </div>
+        </form>
+      </dialog>
     </main>
     <!-- footer -->
     <footer></footer>
